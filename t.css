@@ -1,0 +1,319 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #222;
+  color: #aaa;
+}
+header {
+  background-color: #111;
+  color: white;
+  text-align: center;
+  padding: 2px 1px;
+}
+
+.announcement {
+  background-color: blueviolet;
+  padding: 10px;
+  font-size: 15px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.search-box {
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: none;
+  font-size: 1rem;
+}
+
+.icon {
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+}
+
+.dydx-hero {
+  background-image: url('https://dydxmerch.shop/cdn/shop/files/Mobile-Hero_750x@2x.png?v=1669839489');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 250vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+
+.shop-button {
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  margin-top: 30px;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 80px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.shop-button:hover {
+  background-color: #aaa;
+  transform: scale(1.05);
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 18%;
+  left: 18%;
+  right: 5%;
+  padding: 2rem;
+  border-radius: 8px;
+  
+}
+
+.dydx-hero h1 {
+  font-size: 80px;
+  font-weight: 500;
+}
+.hero-overlay-dydx-hero-h1-button{
+  border-radius: 80px;
+  background-color: blueviolet;
+
+}
+
+.product-section {
+  padding: 2rem;
+  background-color: ;
+}
+
+.product-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.product-grid {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-card {
+  background-color: #f0f0f0;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 200px;
+  text-align: center;
+}
+button{
+  padding: 10px 10px;
+  border-radius: 20px;
+  border-color: transparent;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  margin-top: 10px;
+  padding: 10px 25px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  
+}
+button:hover{
+  background-color: #aaa;
+  transform: scale(1.05);
+}
+.product-card img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.product-card h3 {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.product-card p {
+  font-weight: bold;
+  color: #555;
+}
+
+
+.wardrobe-section {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #222;
+}
+
+.wardrobe-section h4{
+  font-size: 28px;
+  margin-bottom: 30px;
+  color:#aaa;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 60px;
+  justify-items: center;
+}
+
+.category-item {
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.category-item img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.category-item h5 {
+  margin-top: 12px;
+  font-size: 20pxpx;
+  color: #555;
+}
+
+.category-item:hover {
+  transform: scale(1.05);
+}
+.connect {
+  background-color:blueviolet;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 18px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 40px auto;
+  max-width: 800px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.connect h7 {
+  display: block;
+  font-size: 28px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.connect p {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.discord-link {
+  display: inline-block;
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 80px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.discord-link:hover {
+  background-color: #aaa;
+  transform: scale(1.05);
+}
+
+footer {
+  background: #111;
+  color: #ccc;
+  padding: 40px 20px;
+}
+
+.footer-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 200px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.footer-columns div {
+  flex: 1;
+  min-width: 200px;
+}
+
+footer h6 {
+  color: #fff;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  
+}
+
+footer a {
+  color: #ccc;
+  text-decoration: none;
+  
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer form {
+  margin-top: 20px;
+  
+}
+
+footer input[type="email"] {
+  padding: 8px;
+  width: 70%;
+  border: none;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+footer button {
+  padding: 8px 12px;
+  border: none;
+  background: #fff;
+  color: #000;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 0.9rem;
+}
+
+
